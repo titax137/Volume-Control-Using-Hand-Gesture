@@ -11,6 +11,9 @@ Requirements
 * Numpy 
 * Math
 
+![alt text](https://media.giphy.com/media/wlPVfjDVVicLf7eHPM/giphy-downsized-large.gif)
+
+
 If you are getting an error getting the x and y value using hand['lmList'][8] then use hand['lmList'][8][:2] instead.
 This is because the latest version of cvzone consists of x,y,z values instead of only x,y.  So you have to define that you only need the first two elements by adding [:2]
 
